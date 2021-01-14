@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "mkdir public/cms2 && echo '<html><head><title>cms2</title></head><body>cms2</body></html>' >> public/cms2/index.html && next build",
     "start": "next start"
   },
   "dependencies": {
