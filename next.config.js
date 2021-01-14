@@ -1,8 +1,8 @@
 module.exports = {
   async rewrites() {
     return [
-      { source: "/cms", destination: "/sanity/" }, // ?
-      { source: "/cms/:path*", destination: "/sanity/" }, // ?
+      { source: "/cms", destination: "/cms/index.html" },
+      { source: "/cms/:path*", destination: "/cms/index.html" },
     ];
   },
   serverRuntimeConfig: {
